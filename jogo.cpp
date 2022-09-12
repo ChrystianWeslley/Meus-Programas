@@ -83,6 +83,7 @@ int main(void)
 				system("cls");
 				printf("\nVocê usou todas as suas tentativas\nSeus pontos são %d", pontos);
 				pontos = 0;
+				getch();
 			}
 			system("cls");
 			fflush(stdin);
@@ -97,6 +98,6 @@ int main(void)
 				default: printf("\nOpção invalida"); break;
 			}
 			getch();
-		}while(escolha > 2 | escolha < 0);
+		}while(escolha > 2 || escolha < 0);
 	}while(escolha != 2);
 }
