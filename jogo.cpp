@@ -37,7 +37,6 @@ int main(void)
 		}
 		srand(time(0));
 		a = rand() % max;
-		printf("%d", a);
 		getch();
 		for(contador=1; 1<=ten; contador++)
 		{
